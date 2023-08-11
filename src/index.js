@@ -1,13 +1,23 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import {
+  DarkModeContextProvider,
+  LoadingContextProvider,
+  MenuContextProvider
+} from './context/ModuleContext';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <LoadingContextProvider>
+      <MenuContextProvider>
+          <DarkModeContextProvider>
+            <App />
+          </DarkModeContextProvider>
+      </MenuContextProvider>
+    </LoadingContextProvider>
   </React.StrictMode>
 );
 
