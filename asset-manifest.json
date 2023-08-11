@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/DTN-Website/static/css/main.5635a2f0.css",
-    "main.js": "/DTN-Website/static/js/main.cd9aaf82.js",
+    "main.css": "/DTN-Website/static/css/main.5d5b9db8.css",
+    "main.js": "/DTN-Website/static/js/main.14f80d49.js",
     "static/js/787.c4e7f8f9.chunk.js": "/DTN-Website/static/js/787.c4e7f8f9.chunk.js",
     "static/media/banner_portfolio.jpg": "/DTN-Website/static/media/banner_portfolio.a34750d50853eaafb9bf.jpg",
     "static/media/avatar_card.jpg": "/DTN-Website/static/media/avatar_card.be04074652a417b8023d.jpg",
@@ -30,12 +30,12 @@
     "static/media/icon-4.svg": "/DTN-Website/static/media/icon-4.9d093dd050310f9921964b7dfbccc477.svg",
     "static/media/icon-4w.svg": "/DTN-Website/static/media/icon-4w.c9029f15d4ff0cf60aa462c87f9ad6b6.svg",
     "index.html": "/DTN-Website/index.html",
-    "main.5635a2f0.css.map": "/DTN-Website/static/css/main.5635a2f0.css.map",
-    "main.cd9aaf82.js.map": "/DTN-Website/static/js/main.cd9aaf82.js.map",
+    "main.5d5b9db8.css.map": "/DTN-Website/static/css/main.5d5b9db8.css.map",
+    "main.14f80d49.js.map": "/DTN-Website/static/js/main.14f80d49.js.map",
     "787.c4e7f8f9.chunk.js.map": "/DTN-Website/static/js/787.c4e7f8f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5635a2f0.css",
-    "static/js/main.cd9aaf82.js"
+    "static/css/main.5d5b9db8.css",
+    "static/js/main.14f80d49.js"
   ]
 }
