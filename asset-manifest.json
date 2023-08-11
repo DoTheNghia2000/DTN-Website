@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/DTN-Website/static/css/main.5635a2f0.css",
+    "main.js": "/DTN-Website/static/js/main.cd9aaf82.js",
+    "static/js/787.c4e7f8f9.chunk.js": "/DTN-Website/static/js/787.c4e7f8f9.chunk.js",
+    "static/media/banner_portfolio.jpg": "/DTN-Website/static/media/banner_portfolio.a34750d50853eaafb9bf.jpg",
+    "static/media/avatar_card.jpg": "/DTN-Website/static/media/avatar_card.be04074652a417b8023d.jpg",
+    "static/media/banner_resume.jpg": "/DTN-Website/static/media/banner_resume.39148bc2eb70e8d8cf8d.jpg",
+    "static/media/banner_home.jpg": "/DTN-Website/static/media/banner_home.9c4971143c4b8745cf99.jpg",
+    "static/media/p6.gif": "/DTN-Website/static/media/p6.e284c12cc1c95ce72d95.gif",
+    "static/media/blog-2.jpg": "/DTN-Website/static/media/blog-2.9f35c0606b9cb7b18953.jpg",
+    "static/media/blog-1.jpg": "/DTN-Website/static/media/blog-1.e50f7e52fca5a068121f.jpg",
+    "static/media/p1.jpg": "/DTN-Website/static/media/p1.5bd089ef8743e6acaf65.jpg",
+    "static/media/p8.jpg": "/DTN-Website/static/media/p8.4f66e653e15955ba6599.jpg",
+    "static/media/p7.jpg": "/DTN-Website/static/media/p7.9d102436bcc56644c469.jpg",
+    "static/media/p4.jpg": "/DTN-Website/static/media/p4.12dfba5eec455978d10c.jpg",
+    "static/media/p2.jpg": "/DTN-Website/static/media/p2.ca781a48217547751e5c.jpg",
+    "static/media/p5.jpg": "/DTN-Website/static/media/p5.70e53ff2518920043140.jpg",
+    "static/media/p3.jpg": "/DTN-Website/static/media/p3.bd2672dc1507b37c312f.jpg",
+    "static/media/icon-5.svg": "/DTN-Website/static/media/icon-5.245be9d00b61947b04dc1376de2399c1.svg",
+    "static/media/icon-5w.svg": "/DTN-Website/static/media/icon-5w.bcee51fcf36f8342b25ff3ef1de84aa4.svg",
+    "static/media/icon-1.svg": "/DTN-Website/static/media/icon-1.153274d042506747f930578a8f5253d2.svg",
+    "static/media/icon-1w.svg": "/DTN-Website/static/media/icon-1w.69c55353087ed8110b8f59aae2ac3773.svg",
+    "static/media/icon-2.svg": "/DTN-Website/static/media/icon-2.165c6e2d90a62d113467b6da0dae76ca.svg",
+    "static/media/icon-2w.svg": "/DTN-Website/static/media/icon-2w.40a4c82d9911f4331f65d7b1ab9c13c9.svg",
+    "static/media/icon-6.svg": "/DTN-Website/static/media/icon-6.6789d4bc1048a7bb37998edf66165d96.svg",
+    "static/media/icon-6w.svg": "/DTN-Website/static/media/icon-6w.547d3ec09218f93a9e035d142f9ffade.svg",
+    "static/media/icon-3.svg": "/DTN-Website/static/media/icon-3.85ad822471bda05845f2b8c6c26c9f38.svg",
+    "static/media/icon-3w.svg": "/DTN-Website/static/media/icon-3w.4a8a9e77a3bebccce2e1c898a4b523a9.svg",
+    "static/media/icon-4.svg": "/DTN-Website/static/media/icon-4.9d093dd050310f9921964b7dfbccc477.svg",
+    "static/media/icon-4w.svg": "/DTN-Website/static/media/icon-4w.c9029f15d4ff0cf60aa462c87f9ad6b6.svg",
+    "index.html": "/DTN-Website/index.html",
+    "main.5635a2f0.css.map": "/DTN-Website/static/css/main.5635a2f0.css.map",
+    "main.cd9aaf82.js.map": "/DTN-Website/static/js/main.cd9aaf82.js.map",
+    "787.c4e7f8f9.chunk.js.map": "/DTN-Website/static/js/787.c4e7f8f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5635a2f0.css",
+    "static/js/main.cd9aaf82.js"
+  ]
+}
