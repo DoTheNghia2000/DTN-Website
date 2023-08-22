@@ -1198,6 +1198,7 @@ sup {
 
 .Portfolio .box-content-list .item {
   display: inline-block;
+  transition: .6s ease-in-out;
 }
 
 .Portfolio .box-content-list .item_inner {

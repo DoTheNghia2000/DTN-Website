@@ -21,7 +21,7 @@ const Header = ({ transformHeader }) => {
          setTimeout(() => {
             handleItemMenu(values);
             setIsItemActive(values);
-         }, 1000)
+         }, 1500)
 
          setTimeout(() => {
             setIsEventInProgress(prevState => !prevState);

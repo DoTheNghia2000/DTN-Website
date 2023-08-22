@@ -13,7 +13,7 @@ const Portfolio = ({ valueScroll }) => {
    const [isItemMenu, setIsItemMenu] = useState('All');
    const [isHeight, setIsHeight] = useState(null);
    const [isValue, setIsValue] = useState(null);
-   const [isStart, setIsStart] = useState(false);
+   // const [isStart, setIsStart] = useState(false);
    const Listref = useRef(null);
 
    const handleClickItem = (values) => {
@@ -181,39 +181,39 @@ const Portfolio = ({ valueScroll }) => {
       }
    }, [])
 
-   useEffect(() => {
-      setIsStart(true);
-      return () => {
-         setIsStart(false);
-      }
-   }, [])
+   // useEffect(() => {
+   //    setIsStart(true);
+   //    return () => {
+   //       setIsStart(false);
+   //    }
+   // }, [])
 
-   useEffect(() => {
-      if (window.innerWidth > 992) {
-         if (valueScroll > 0 && isStart) {
-            const scrolls = document.querySelectorAll('.scroll');
-            if (!scrolls[scrolls.length - 1].classList.contains('active')) {
-               for (let i = 0; i < scrolls.length; i++) {
-                  const elementRect = scrolls[i].getBoundingClientRect();
-                  if (elementRect.top - (window.innerHeight - 100) < 0
-                     && !scrolls[i].classList.contains('active')
-                     && elementRect.top > 0) {
-                     console.log(elementRect.top);
-                     scrolls[i].classList.add('active');
-                  }
-               }
-            }
-         }
-      } else {
-         const box_content = document.querySelectorAll('.box-content-list .item');
+   // useEffect(() => {
+   //    if (window.innerWidth > 992) {
+   //       if (valueScroll > 0 && isStart) {
+   //          const scrolls = document.querySelectorAll('.scroll');
+   //          if (!scrolls[scrolls.length - 1].classList.contains('active')) {
+   //             for (let i = 0; i < scrolls.length; i++) {
+   //                const elementRect = scrolls[i].getBoundingClientRect();
+   //                if (elementRect.top - (window.innerHeight - 100) < 0
+   //                   && !scrolls[i].classList.contains('active')
+   //                   && elementRect.top > 0) {
+   //                   console.log(elementRect.top);
+   //                   scrolls[i].classList.add('active');
+   //                }
+   //             }
+   //          }
+   //       }
+   //    } else {
+   //       const box_content = document.querySelectorAll('.box-content-list .item');
 
-         for (let i = 0; i < box_content.length; i++) {
-            if (box_content[i].classList.contains('scroll')) {
-               box_content[i].classList.remove('scroll');
-            }
-         }
-      }
-   }, [valueScroll, isStart])
+   //       for (let i = 0; i < box_content.length; i++) {
+   //          if (box_content[i].classList.contains('scroll')) {
+   //             box_content[i].classList.remove('scroll');
+   //          }
+   //       }
+   //    }
+   // }, [valueScroll, isStart])
 
    return (
       <div className="Portfolio">
@@ -265,7 +265,7 @@ const Portfolio = ({ valueScroll }) => {
                         </div>
                      </div>
                   </div>
-                  <div className={`item cursor Logos scroll`}>
+                  <div className={`item cursor Logos`}>
                      <div className="item_inner cursor">
                         <img src={p3} alt="" />
                         <div className='p-100'></div>
@@ -277,7 +277,7 @@ const Portfolio = ({ valueScroll }) => {
                         </div>
                      </div>
                   </div>
-                  <div className={`item cursor Logos scroll`}>
+                  <div className={`item cursor Logos`}>
                      <div className="item_inner cursor">
                         <img src={p4} alt="" />
                         <div className='p-100'></div>
@@ -289,7 +289,7 @@ const Portfolio = ({ valueScroll }) => {
                         </div>
                      </div>
                   </div>
-                  <div className={`item cursor Drawings scroll`}>
+                  <div className={`item cursor Drawings`}>
                      <div className="item_inner cursor">
                         <img src={p5} alt="" />
                         <div className='p-100'></div>
@@ -301,7 +301,7 @@ const Portfolio = ({ valueScroll }) => {
                         </div>
                      </div>
                   </div>
-                  <div className={`item cursor WebTemplates scroll`}>
+                  <div className={`item cursor WebTemplates`}>
                      <div className="item_inner cursor">
                         <img src={p6} alt="" />
                         <div className='p-100'></div>
@@ -313,7 +313,7 @@ const Portfolio = ({ valueScroll }) => {
                         </div>
                      </div>
                   </div>
-                  <div className={`item cursor Logos scroll`}>
+                  <div className={`item cursor Logos`}>
                      <div className="item_inner cursor">
                         <img src={p7} alt="" />
                         <div className='p-100'></div>
@@ -325,7 +325,7 @@ const Portfolio = ({ valueScroll }) => {
                         </div>
                      </div>
                   </div>
-                  <div className={`item cursor UIElements scroll`}>
+                  <div className={`item cursor UIElements`}>
                      <div className="item_inner cursor">
                         <img src={p8} alt="" />
                         <div className='p-100'></div>
