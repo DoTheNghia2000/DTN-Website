@@ -42,7 +42,7 @@ const Header = ({ transformHeader }) => {
 
          setTimeout(() => {
             toggleDarkMode();
-         }, 1000)
+         }, 1500)
 
          setTimeout(() => {
             setIsEventInProgress(prevState => !prevState);
